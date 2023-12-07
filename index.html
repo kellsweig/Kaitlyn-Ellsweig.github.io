@@ -20,199 +20,198 @@
 
 	<body class="is-preload">
 		<div id="page-wrapper">
-			<!-- Header -->
 			<header id="header" class="alt">
 				<h1><a href="index.html">Solid State</a></h1>
 			</header>
 
-			<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<div class="image">
-						<img
-							src="images/adirondacks_selfie.jpg"
-							alt="An image of Kaitlyn Ellsweig in the mountains"
-							style="width: 200px"
-						/>
+			<section id="wrapper">
+				<section id="banner">
+					<div class="inner">
+						<div class="image">
+							<img
+								src="images/adirondacks_selfie.jpg"
+								alt="An image of Kaitlyn Ellsweig in the mountains"
+								style="width: 200px"
+							/>
+						</div>
+						<h2>Kaitlyn Ellsweig</h2>
+						<p>Technical Portfolio</p>
 					</div>
-					<h2>Kaitlyn Ellsweig</h2>
-					<p>Technical Portfolio</p>
+				</section>
+
+				<!-- Brand Statement -->
+				<section class="brand-statement">
+					<h4>
+						I am a data scientist with a background in political science and
+						economics. In my past experiences in management, research, and
+						campaigns, I have honed leadership, critical thinking, and
+						communication skills. My ultimate goal is to be part of a team that
+						turns data into actionable insights to empower decision-makers and
+						contribute to a more equitable future.
+					</h4>
+				</section>
+
+				<!-- Skills Section -->
+				<section class="skills">
+					<h3 class="major">Skills</h3>
+					<p>
+						<strong>Programming Languages:</strong> Python, Numpy, Pandas,
+						Sci-kit Learn, SQL, R, PySpark
+					</p>
+					<p>
+						<strong>Machine Learning:</strong> Regression, NLP, KNearest
+						Neighbors, Naive Bayes, Random Forests, Boosting, Support Vector
+						Machines, Recommender Systems, Clustering, Neural Networks,
+						Dimensionality Reduction
+					</p>
+					<p>
+						<strong>Software:</strong> Stata, Microsoft Excel, Microsoft Access,
+						Jupyter Notebook, Tableau
+					</p>
+				</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper spotlight style1">
+					<div class="inner">
+						<a
+							href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
+							class="image"
+							><img
+								src="images\FOCW_logo.png"
+								alt="A circular logo of an otter with the words Friends of the Cobbossee Watershed"
+						/></a>
+						<div class="content">
+							<h2 class="major">The Friends of the Cobbossee Watershed</h2>
+							<h3 class="major">
+								Combining machine learning and data analysis to provide insights
+								to nonprofit organization
+							</h3>
+							<p>
+								I worked with The Friends of the Cobbossee Watershed, an
+								environmental nonprofit working to protect the region's
+								waterbodies from pollution and the threat of invasive species. I
+								first used machine learning to develop a Gradient Boost model to
+								predict the number of Courtesy Boat Inspections the organization
+								would conduct in different scenarios. I then created multiple
+								scenarios and deployed the model on those scenarios to create
+								labor and budget projections. Using these projections and other
+								analysis, I drafted recommendations for changes to budget and
+								staffing for 2024.
+							</p>
+							<a
+								href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
+								class="special"
+								>Learn more</a
+							>
+						</div>
+					</div>
+				</section>
+
+				<!-- Two -->
+				<section id="two" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a
+							href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
+							class="image"
+							><img src="images\20220619_065934.jpg" alt=""
+						/></a>
+						<div class="content">
+							<h2 class="major">Reddit Post Classification Project</h2>
+							<h3 class="major">
+								Utilizing NLP and Machine Learning to Classify Posts
+							</h3>
+							<p>
+								In this project I developed a classfication model that was able
+								to determine with 99.6% accuracy which of two related subreddits
+								a post came from. First, I used the Reddit API, PRAW, to collect
+								reddit posts from the subreddits r/ultralight and r/camping. I
+								used a TF-IDF vectorizer for NLP and then trained a Random
+								Forest, Classifier, AdaBoost Classifier and Voting Classifier to
+								achieve my final model.
+							</p>
+							<a
+								href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
+								class="special"
+								>Learn more</a
+							>
+						</div>
+					</div>
+				</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper spotlight style3">
+					<div class="inner">
+						<a href="#" class="image"
+							><img src="images/covid19.jpg" alt=""
+						/></a>
+						<div class="content">
+							<h2 class="major">US Covid-19 Outcomes Analsysis</h2>
+							<p>Say something here about the group project</p>
+							<a href="#" class="special">Learn more</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Four -->
+				<section id="four" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a href="#" class="image"><img src="images/house.jpg" alt="" /></a>
+						<div class="content">
+							<h2 class="major">Predicting Housing Prices in Ames Iowa</h2>
+							<p>Say something here about the Kaggle Competition and project</p>
+							<a href="#" class="special">Learn more</a>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch</h2>
+					<p>
+						Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
+						Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
+						egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
+						in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+					</p>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+					<ul class="contact">
+						<li class="icon solid fa-phone">(732) 956-8227</li>
+						<li class="icon solid fa-envelope">
+							<a href="#">kaitlynellsweig@gmail.com</a>
+						</li>
+						<li class="icon brands fa-linkedin">
+							<a href="https://www.linkedin.com/in/kaitlyn-ellsweig/"
+								>linkedin.com/in/kaitlyn-ellsweig</a
+							>
+						</li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled Inc. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
 				</div>
-			</section>
-
-			<!-- Brand Statement -->
-			<section class="brand-statement">
-				<h4>
-					I am a data scientist with a background in political science and
-					economics. In my past experiences in management, research, and
-					campaigns, I have honed leadership, critical thinking, and
-					communication skills. My ultimate goal is to be part of a team that
-					turns data into actionable insights to empower decision-makers and
-					contribute to a more equitable future.
-				</h4>
-			</section>
-
-			<!-- Skills Section -->
-			<section class="skills">
-				<h3 class="major">Skills</h3>
-				<p>
-					<strong>Programming Languages:</strong> Python, Numpy, Pandas, Sci-kit
-					Learn, SQL, R, PySpark
-				</p>
-				<p>
-					<strong>Machine Learning:</strong> Regression, NLP, KNearest
-					Neighbors, Naive Bayes, Random Forests, Boosting, Support Vector
-					Machines, Recommender Systems, Clustering, Neural Networks,
-					Dimensionality Reduction
-				</p>
-				<p>
-					<strong>Software:</strong> Stata, Microsoft Excel, Microsoft Access,
-					Jupyter Notebook, Tableau
-				</p>
 			</section>
 		</div>
-
-		<!-- Wrapper -->
-		<section id="wrapper">
-			<!-- One -->
-			<section id="one" class="wrapper spotlight style1">
-				<div class="inner">
-					<a
-						href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
-						class="image"
-						><img
-							src="images\FOCW_logo.png"
-							alt="A circular logo of an otter with the words Friends of the Cobbossee Watershed"
-					/></a>
-					<div class="content">
-						<h2 class="major">The Friends of the Cobbossee Watershed</h2>
-						<h3 class="major">
-							Combining machine learning and data analysis to provide insights
-							to nonprofit organization
-						</h3>
-						<p>
-							I worked with The Friends of the Cobbossee Watershed, an
-							environmental nonprofit working to protect the region's
-							waterbodies from pollution and the threat of invasive species. I
-							first used machine learning to develop a Gradient Boost model to
-							predict the number of Courtesy Boat Inspections the organization
-							would conduct in different scenarios. I then created multiple
-							scenarios and deployed the model on those scenarios to create
-							labor and budget projections. Using these projections and other
-							analysis, I drafted recommendations for changes to budget and
-							staffing for 2024.
-						</p>
-						<a
-							href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
-							class="special"
-							>Learn more</a
-						>
-					</div>
-				</div>
-			</section>
-
-			<!-- Two -->
-			<section id="two" class="wrapper alt spotlight style2">
-				<div class="inner">
-					<a
-						href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
-						class="image"
-						><img src="images\20220619_065934.jpg" alt=""
-					/></a>
-					<div class="content">
-						<h2 class="major">Reddit Post Classification Project</h2>
-						<h3 class="major">
-							Utilizing NLP and Machine Learning to Classify Posts
-						</h3>
-						<p>
-							In this project I developed a classfication model that was able to
-							determine with 99.6% accuracy which of two related subreddits a
-							post came from. First, I used the Reddit API, PRAW, to collect
-							reddit posts from the subreddits r/ultralight and r/camping. I
-							used a TF-IDF vectorizer for NLP and then trained a Random Forest,
-							Classifier, AdaBoost Classifier and Voting Classifier to achieve
-							my final model.
-						</p>
-						<a
-							href="https://github.com/kellsweig/Reddit-Project-Classification-and-NLP"
-							class="special"
-							>Learn more</a
-						>
-					</div>
-				</div>
-			</section>
-
-			<!-- Three -->
-			<section id="three" class="wrapper spotlight style3">
-				<div class="inner">
-					<a href="#" class="image"><img src="images/covid19.jpg" alt="" /></a>
-					<div class="content">
-						<h2 class="major">US Covid-19 Outcomes Analsysis</h2>
-						<p>Say something here about the group project</p>
-						<a href="#" class="special">Learn more</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- Four -->
-			<section id="four" class="wrapper alt spotlight style2">
-				<div class="inner">
-					<a href="#" class="image"><img src="images/house.jpg" alt="" /></a>
-					<div class="content">
-						<h2 class="major">Predicting Housing Prices in Ames Iowa</h2>
-						<p>Say something here about the Kaggle Competition and project</p>
-						<a href="#" class="special">Learn more</a>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="inner">
-				<h2 class="major">Get in touch</h2>
-				<p>
-					Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-					Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-					egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-					tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-				</p>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-				<ul class="contact">
-					<li class="icon solid fa-phone">(732) 956-8227</li>
-					<li class="icon solid fa-envelope">
-						<a href="#">kaitlynellsweig@gmail.com</a>
-					</li>
-					<li class="icon brands fa-linkedin">
-						<a href="https://www.linkedin.com/in/kaitlyn-ellsweig/"
-							>linkedin.com/in/kaitlyn-ellsweig</a
-						>
-					</li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled Inc. All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
